@@ -1,24 +1,13 @@
-# README
+# This is a simple quote editor using :
+* Rails 7.0.4
+* Ruby 3.1.2
+* Node 16.13.1
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+### Setup
+``bin/setup``
 
-Things you may want to cover:
+### Run tests
+``rails test:system``
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+### Launch Server
+``rails server``
