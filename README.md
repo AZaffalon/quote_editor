@@ -1,16 +1,30 @@
-## Simple quote editor to get a better understanding of turbo-rails:
+# Simple quote editor to get a better understanding of turbo-rails:
 
-### Versions
+## Versions
+
 * Rails 7.0.4
 * Ruby 3.1.2
 * Node 16.13.1
 * ``turbo-rails`` gem
 
-### Setup
-``bin/setup``
+## Setup
 
-### Run tests
-``rails test:system``
+```
+bin/setup
+```
 
-### Launch Server
-``rails server``
+## Run tests
+
+```
+rails test:system
+```
+
+## Launch Server
+
+```
+rails server
+```
+
+---
+
+Made with the **[hotrails.dev tutorial](https://www.hotrails.dev/turbo-rails)**
