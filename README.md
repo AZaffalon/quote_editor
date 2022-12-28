@@ -1,4 +1,6 @@
-# This is a simple quote editor using :
+## Simple quote editor to get a better understanding of turbo-rails:
+
+### Versions
 * Rails 7.0.4
 * Ruby 3.1.2
 * Node 16.13.1
