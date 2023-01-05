@@ -3,7 +3,9 @@ class QuotesController < ApplicationController
   def index
     @quotes = current_company.quotes.ordered
   end
+
   def show
+    @line_item_dates = @quote.line_item_dates.ordered
   end
 
   def new
@@ -23,8 +25,7 @@ class QuotesController < ApplicationController
     end
   end
 
-  def edit
-  end
+  def edit ;end
 
   def update
     if @quote.update(quote_params)
